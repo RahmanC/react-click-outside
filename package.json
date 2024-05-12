@@ -1,0 +1,42 @@
+{
+  "name": "react-click-outside",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The react-click-outside package provides a custom React hook for detecting clicks outside of a specified element. This hook simplifies the process of implementing common UI patterns such as closing a modal or dropdown when a user clicks outside of it.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahmanC/react-click-outside.git"
+  },
+  "keywords": [
+    "react",
+    "click outside",
+    "click-outside",
+    "clickoutside",
+    "modal",
+    "dropdown"
+  ],
+  "author": "Abdulrahman Olalekan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahmanC/react-click-outside/issues"
+  },
+  "homepage": "https://github.com/RahmanC/react-click-outside#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "rollup": "^4.17.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}

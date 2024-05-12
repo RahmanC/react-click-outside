@@ -1,0 +1,6 @@
+.vscode
+dist
+# dependencies
+/node_modules
+react-click-outside*.tgz
+.DS_Store
