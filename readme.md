@@ -31,8 +31,6 @@ const ref = useRef(null);
  useOnClickOutside(ref, () => setShowModal(false));
 ```
 
-```
- - Here, ref is a reference to the element that you want to track clicks outside of, and setShowModal(false) is the action you want to trigger when a click occurs outside of that element, in this case, closing a modal.
+## Here, ref is a reference to the element that you want to track clicks outside of, and setShowModal(false) is the action you want to trigger when a click occurs outside of that element, in this case, closing a modal.
 
-- By following these steps, you can easily incorporate the useOnClickOutside hook into your React components to handle click events outside of specified elements.
-```js
+## By following these steps, you can easily incorporate the useOnClickOutside hook into your React components to handle click events outside of specified elements.
